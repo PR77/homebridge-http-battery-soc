@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "Homebridge ESP8266 Battery SOC",
+  "name": "homebridge-http-esp8266-battery",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Homebridge plugin for displaying a connected battery SOC (State Of Charge).",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/pr77/homebridge-http-esp8266-battery.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/pr77/homebridge-http-esp8266-battery/issues"
   },
   "engines": {
     "node": ">=14.18.1",
