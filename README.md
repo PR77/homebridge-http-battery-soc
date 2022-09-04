@@ -10,7 +10,7 @@
 
 ## Description
 
-This [homebridge](https://github.com/homebridge/homebridge) plugin was based upon (https://github.com/dhop90/homebridge-http-esp8266-battery). I've changed this to only exposes a web-based battery status to Apple's [HomeKit](http://www.apple.com/ios/home/). Using simple HTTP requests, the plugin displays the current SOC (State Of Charge) of a connected battery.
+This [homebridge](https://github.com/homebridge/homebridge) plugin was inspired by (https://github.com/dhop90/homebridge-http-esp8266-battery) and based on the homebridge examples. This plugins exposes a web-based battery status to Apple's [HomeKit](http://www.apple.com/ios/home/). Using simple HTTP requests, the plugin displays the current SOC (State Of Charge) of a connected AGM battery.
 
 ## Installation
 
