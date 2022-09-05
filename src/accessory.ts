@@ -43,7 +43,7 @@ let hap: HAP;
  */
 export = (api: API) => {
   hap = api.hap;
-  api.registerAccessory("esp8266Battery", esp8266Battery);
+  api.registerAccessory("homebridge-http-esp8266-battery", "esp8266Battery", esp8266Battery);
 };
 
 class esp8266Battery implements AccessoryPlugin {
@@ -72,10 +72,10 @@ class esp8266Battery implements AccessoryPlugin {
       })
 
     this.informationService = new hap.Service.AccessoryInformation()
-      .setCharacteristic(hap.Characteristic.Manufacturer, "Custom Manufacturer")
-      .setCharacteristic(hap.Characteristic.Model, "Custom Model");
+      .setCharacteristic(hap.Characteristic.Manufacturer, "Paul Raspa (PR77)")
+      .setCharacteristic(hap.Characteristic.Model, "ESP8266");
 
-    log.info("Switch finished initializing!");
+    log.info("Battery finished initializing!");
   }
 
   /*
