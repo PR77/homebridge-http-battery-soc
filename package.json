@@ -2,7 +2,7 @@
   "name": "homebridge-http-esp8266-battery",
   "version": "1.0.0",
   "description": "Homebridge accessory to read Battery SOC from ESP8266",
-  "main": "dist/accessory.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "rimraf ./dist && tsc",
