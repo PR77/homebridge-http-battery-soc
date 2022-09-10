@@ -44,10 +44,10 @@ This [homebridge](https://github.com/homebridge/homebridge) plugin was inspired 
 
 ### Response
 
-Example of expected response
+Example of expected response for 50% State Of Charge (SOC)
 
 ```json
 {
-    "statusPattern": "true"
+    "charge": 50
 }
 ```
