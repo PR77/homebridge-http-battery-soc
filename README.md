@@ -40,7 +40,7 @@ This [homebridge](https://github.com/homebridge/homebridge) plugin was inspired 
 | `name` | Name to appear in the Home app | N/A |
 | `apiroute` | Root URL of your device | N/A |
 | `pollInterval` | Time (in seconds) between device polls | `300` |
-| `timeout` | Time (in milliseconds) until the accessory will be marked as _Not Responding_ if it is unreachable | `3000` |
+| `timeout` | Time (in milliseconds) until the accessory will be marked as _Not Responding_ if it is unreachable | `10000` |
 
 ### Response
 
