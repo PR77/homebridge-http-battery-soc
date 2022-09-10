@@ -1,40 +1,30 @@
 {
-  "name": "homebridge-http-esp8266-battery",
+  "name": "homebridge-http-battery-soc",
+  "displayName" : "Homebridge ESP8266 Accoessory for Battery SOC",
   "version": "1.0.0",
-  "description": "Homebridge accessory to read Battery SOC from ESP8266",
-  "main": "dist/index.js",
+  "description": "Homebridge plugin for displaying the SOC of a Battery",
+  "main": "index.js",
+  "dependencies": {
+    "request": ">=2.88.0"
+  },
+  "engines": {
+    "homebridge": ">=0.4.50",
+    "node": ">=12.13.0"
+  },
   "scripts": {
-    "clean": "rimraf ./dist",
-    "build": "rimraf ./dist && tsc",
-    "prepublishOnly": "npm run build",
-    "postpublish": "npm run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paul Raspa (PR77)",
-  "engines": {
-    "homebridge": ">=1.0.0"
-  },
-  "keywords": [
-    "homebridge-plugin",
-    "esp8266",
-    "homebridge-plugin-battery"
-  ],
-  "license": "ISC",
-  "files": [
-    "LICENSE",
-    "dist"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PR77/homebridge-http-esp8266-battery"
+    "url": "git+https://github.com/pr77/homebridge-http-battery-soc.git"
   },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "pr77",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PR77/homebridge-http-esp8266-battery/issues"
+    "url": "https://github.com/pr77/homebridge-http-battery-soc/issues"
   },
-  "devDependencies": {
-    "@types/node": "10.17.19",
-    "typescript": "^3.8.3",
-    "rimraf": "^3.0.2",
-    "homebridge": "^1.0.4"
-  }
+  "homepage": "https://github.com/pr77/homebridge-http-battery-soc#readme"
 }
