@@ -4,7 +4,7 @@
 
 <span align="center">
 
-# homebridge-http-esp8266-battery
+# homebridge-http-battery-soc
 
 </span>
 
