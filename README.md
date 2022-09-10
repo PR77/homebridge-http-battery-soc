@@ -33,6 +33,7 @@ This [homebridge](https://github.com/homebridge/homebridge) plugin was inspired 
 ```
 
 ### Config
+
 | Key | Description | Default |
 | --- | --- | --- |
 | `accessory` | Must be accessory | N/A |
@@ -40,3 +41,13 @@ This [homebridge](https://github.com/homebridge/homebridge) plugin was inspired 
 | `apiroute` | Root URL of your device | N/A |
 | `pollInterval` | Time (in seconds) between device polls | `300` |
 | `timeout` | Time (in milliseconds) until the accessory will be marked as _Not Responding_ if it is unreachable | `3000` |
+
+### Response
+
+Example of expected response
+
+```json
+{
+    "statusPattern": "true"
+}
+```
